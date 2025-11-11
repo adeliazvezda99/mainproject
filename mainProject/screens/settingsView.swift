@@ -12,7 +12,7 @@ struct settingsView: View {
         Text("Settings")
         List {
             Text("Dark Mode")
-                .foregroundColor(.blue)
+                .foregroundColor(.black)
                 .onTapGesture {
                     print("Dark Mode")
                 }
